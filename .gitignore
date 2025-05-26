@@ -1,0 +1,96 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.whl
+
+# Installer logs
+pip-log.txt
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Streamlit
+.streamlit/config.toml
+.streamlit/credentials.toml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Image files (output, temp, etc.)
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.tif
+*.gif
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Custom local files
+output/
+temp/
+cache/
+data/tmp/
+
+# dotenv (env vars)
+.env
+.env.*
+
+# SQLite (if used)
+*.sqlite3
+*.db
+
+# Ignore models and large assets
+models/
+checkpoints/
